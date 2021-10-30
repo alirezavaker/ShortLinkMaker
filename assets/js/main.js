@@ -43,7 +43,7 @@ function hashMaker(){
     let responseUrl = document.getElementById('responseUrl');
     if (window.location.hash == ""){
         let resultUrl = window.location.hash = randomMaker() ;
-       responseUrl.value = window.location.href +  resultUrl;
+       responseUrl.value = window.location.href;
     }
 }
 // Submit a request by Ajax
